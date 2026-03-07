@@ -1,0 +1,64 @@
+body{
+font-family: Helvetica, Arial, sans-serif;
+margin:0;
+background:#f4f7fb;
+color:#333;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+background:#1f2937;
+color:white;
+}
+
+nav{
+text-align:center;
+background:#374151;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+h2{
+border-bottom:2px solid #ddd;
+padding-bottom:10px;
+}
+
+.project{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.gallery{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.gallery img{
+width:250px;
+border-radius:8px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#1f2937;
+color:white;
+margin-top:40px;
+}
