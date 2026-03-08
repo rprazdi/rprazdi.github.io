@@ -1,64 +1,66 @@
 body{
-font-family: Helvetica, Arial, sans-serif;
-margin:0;
-background:#f4f7fb;
-color:#333;
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f8fafc;
+  color:#1f2937;
 }
 
 header{
-text-align:center;
-padding:60px 20px;
-background:#1f2937;
-color:white;
+  text-align:center;
+  padding:80px 20px;
+  background:#0f172a;
+  color:white;
 }
 
 nav{
-text-align:center;
-background:#374151;
-padding:10px;
+  text-align:center;
+  background:#1e293b;
+  padding:15px;
 }
 
 nav a{
-color:white;
-margin:0 15px;
-text-decoration:none;
-font-weight:bold;
+  color:white;
+  margin:0 18px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:16px;
 }
 
 section{
-max-width:900px;
-margin:auto;
-padding:40px 20px;
+  max-width:900px;
+  margin:auto;
+  padding:50px 20px;
 }
 
 h2{
-border-bottom:2px solid #ddd;
-padding-bottom:10px;
+  border-bottom:2px solid #cbd5e1;
+  padding-bottom:10px;
+  margin-bottom:25px;
 }
 
 .project{
-background:white;
-padding:20px;
-margin:20px 0;
-border-radius:8px;
-box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  background:white;
+  padding:25px;
+  margin:25px 0;
+  border-radius:14px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
 
 .gallery{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
 }
 
 .gallery img{
-width:250px;
-border-radius:8px;
+  width:260px;
+  border-radius:12px;
 }
 
 footer{
-text-align:center;
-padding:20px;
-background:#1f2937;
-color:white;
-margin-top:40px;
+  text-align:center;
+  padding:25px;
+  background:#0f172a;
+  color:white;
+  margin-top:40px;
 }
